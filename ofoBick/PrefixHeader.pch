@@ -1,0 +1,146 @@
+//
+//  PrefixHeader.pch
+//  Dutyfreestore
+//
+//  Created by wade on 15/11/9.
+//  Copyright © 2015年 Fow Tech. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+#import "AppDelegate.h"
+#import "BaseCollectionView.h"
+#import "BaseTableViewController.h"
+#import "BaseViewController.h"
+#import "UIViewController+DismissKeyboard.h"
+#import "UIScrollView+EmptyDataSet.h"
+#import "UIView+Frame.h"
+#import "ViewUtils.h"
+#import "bigButton.h"
+#import "Config.h"
+#import "YYModel.h"
+#import "Tool.h"
+#import "ConnctTool.h"
+#import "UIView+Line.h"
+#import "CALayer+Additions.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import "UIViewController+navigatinSetting.h"
+#import "MBProgressHUD+MyMBP.h"
+#import "NSString+Format.h"
+#import "NavigationView.h"
+#import "NSString+Format.h"
+
+#define IS_IPHONE4    (([[UIScreen mainScreen] bounds].size.height - 480) ? NO:YES)
+#define IS_IPHONE5    (([[UIScreen mainScreen] bounds].size.height - 568) ? NO:YES)
+#define IS_IPHONE6    (([[UIScreen mainScreen] bounds].size.height - 667) ? NO:YES)
+#define IS_IPHONE6P   (([[UIScreen mainScreen] bounds].size.height - 736) ? NO:YES)
+
+#define SCREEN_WIDTH  [[UIScreen mainScreen] bounds] .size.width
+#define SCREEN_HEIGHT [[UIScreen mainScreen] bounds] .size.height
+
+#define SystemVersion  [[[UIDevice currentDevice] systemVersion] floatValue]
+
+#define UMENG_APPKEY                    @"57883e18e0f55ae176002e14"
+
+#define CLIENTID                        @"960e284150d5a4611df0439c4e96ef08"
+
+#define UIColorFromRGB(rgbValue)        [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define THEME                           [UIColor colorWithRed:45/255.f green:162/255.f blue:136/255.f alpha:1]
+
+#define UIColorOrange                   [UIColor colorWithRed:((float)((0xFF9800 & 0xFF0000) >> 16))/255.0 green:((float)((0xFF9800 & 0xFF00) >> 8))/255.0 blue:((float)(0xFF9800 & 0xFF))/255.0 alpha:1.0]
+
+#define UIColorRed                      UIColorFromRGB(0xe6695e)
+
+#define UIColorText                     UIColorFromRGB(0x333333)
+
+#define RATIO                           (([[UIScreen mainScreen] bounds].size.height == 736) ? 1.29375 : (([[UIScreen mainScreen] bounds].size.height == 667) ? 1.171875 : 1))
+
+//400电话
+#define PHONE400                        @"400-0000-000"
+
+//APP下载地址
+#define APPADDR                         @"https://itunes.apple.com/us/app/xiao-hong-qi/id11648080345?l=zh&ls=1&mt=8"
+
+
+//HUB提示文本
+#define HUBSTR                          @""
+
+// 版本号
+#define VERSION                         [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+
+#define CHINESE                         @"zh-Hans"
+#define ENGLISH                         @"en"
+
+// 是否处于夜间模式
+#define ISNIGHT                         [self.dk_manager.themeVersion isEqualToString:DKThemeVersionNight]
+
+
+#ifdef DEBUG
+
+#define MYLog(...) NSLog(__VA_ARGS__)
+
+//A better version of NSLog
+#define NSLog(format, ...) do { \
+fprintf(stderr, "<%s : %d> %s\n", \
+[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], \
+__LINE__, __func__); \
+(NSLog)((format), ##__VA_ARGS__); \
+fprintf(stderr, "-------\n"); \
+} while (0)
+
+#define APIURL                          @"http://edyd-lite-api.fowtest.com"            //测试环境
+#define Trace_serviceId                 130624
+#define Trace_AK                        @"V3GIDCRUoYVnm0H0IioAKFW8MV9oG5n6"
+#define Trace_MCODE                     @"com.edyd.lite.appstore"
+//leancloud
+#define AVOS_ID                         @"OM8OO8KDsIegtPcq8peVLWqD-gzGzoHsz"
+#define AVOS_KEY                        @"R7zBw73yYB0Qv4pLjw8JgSWE"
+#define IPHONESECRETKEY                 @"8aEqRJDhBhJT/Wm/FRwbsN1KV4dQSJIJBBVo3yKlXshiO87p3rRpzGJN2lXswkZBecEyX9y8JE7oj0m8kA7txw=="
+
+#elif INHOUSE
+
+#    define MYLog(...)
+
+#define APIURL                          @"http://edyd-lite-api.fowtest.com"            //inhouse环境
+#define Trace_serviceId                 130624
+#define Trace_AK                        @"C6yLWMhF27TyAaVqGovfi0h9D0MakXxg"
+#define Trace_MCODE                     @"com.edyd.lite"
+//leancloud
+#define AVOS_ID                         @"OM8OO8KDsIegtPcq8peVLWqD-gzGzoHsz"
+#define AVOS_KEY                        @"R7zBw73yYB0Qv4pLjw8JgSWE"
+#define IPHONESECRETKEY                 @"8aEqRJDhBhJT/Wm/FRwbsN1KV4dQSJIJBBVo3yKlXshiO87p3rRpzGJN2lXswkZBecEyX9y8JE7oj0m8kA7txw=="
+
+#elif RELEASE
+
+#    define MYLog(...)
+
+#define APIURL                          @"http://api-lite.edyd.cn"            //生产环境
+#define Trace_serviceId                	130622
+#define Trace_AK                        @"f9GnGvcH3h4ijXeSBngK9GGBmTcBvvyg"
+#define Trace_MCODE                     @"com.edyd.lite.appstore"
+//leancloud
+#define AVOS_ID                         @"OfJCDaUl4bhkF19WUgzk4x4a-gzGzoHsz"
+#define AVOS_KEY                        @"OQTATsvOeeclMo9jvFEqXxRg"
+#define IPHONESECRETKEY                 @"Z6BkZiu6iOc2XN5ySRxqIdsJGhnUQ/NDTa32Ni1CX4L5d4wmbxda/ZBAWBAfYxKdawe/vB4MzeNWR7nBNvrzEw=="
+
+#else
+
+
+#endif
+
+
+
+
+
+
+
+#define WS(weakSelf) __weak __typeof(&*self)weakSelf = self;
+
+
+

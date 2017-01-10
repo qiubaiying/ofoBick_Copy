@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - BaiduMapKit (3.1.0)
+  - DZNEmptyDataSet (1.8.1)
+  - Masonry (1.0.2)
+  - MJRefresh (3.1.12)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - UICKeyChainStore (2.1.0)
+  - UITableView+FDTemplateLayoutCell (1.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0.4)
+  - BaiduMapKit (~> 3.1.0)
+  - DZNEmptyDataSet
+  - Masonry (~> 1.0.1)
+  - MJRefresh
+  - ReactiveCocoa (~> 2.5)
+  - SDWebImage
+  - UICKeyChainStore
+  - UITableView+FDTemplateLayoutCell (~> 1.4)
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  BaiduMapKit: 4cfaedb118cff7e157e9771859a4bf65a261b2a1
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  UICKeyChainStore: f1cbd42216a113f0165de1e733e62905b8823432
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+
+PODFILE CHECKSUM: 69ee0948a388c511553ef2033b060cf420dd20ee
+
+COCOAPODS: 1.0.1
