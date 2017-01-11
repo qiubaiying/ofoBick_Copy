@@ -14,6 +14,7 @@ pod 'DZNEmptyDataSet' ##空白页
 pod 'Masonry', '~> 1.0.1'
 pod 'BaiduMapKit', '~> 3.1.0'
 pod 'UICKeyChainStore'
+pod 'MMDrawerController', '~> 0.6.0'
 
 end
 

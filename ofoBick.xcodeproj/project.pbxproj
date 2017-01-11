@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23356BEC1E24A5FA00AD33ED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23356BEB1E24A5FA00AD33ED /* MapKit.framework */; };
 		234305B31E24801F004BCCBF /* NetRequestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 234305B01E24801F004BCCBF /* NetRequestClass.m */; };
 		234305B41E24801F004BCCBF /* ViewModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 234305B21E24801F004BCCBF /* ViewModelClass.m */; };
 		234305D41E24808E004BCCBF /* BaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 234305B71E24808E004BCCBF /* BaseCollectionView.m */; };
@@ -61,6 +62,9 @@
 		238478DF1E1F9B3B00C1E90F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238478DD1E1F9B3B00C1E90F /* LaunchScreen.storyboard */; };
 		238478EA1E1F9B3B00C1E90F /* ofoBickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 238478E91E1F9B3B00C1E90F /* ofoBickTests.m */; };
 		238478F51E1F9B3B00C1E90F /* ofoBickUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 238478F41E1F9B3B00C1E90F /* ofoBickUITests.m */; };
+		239BB4161E26149B00FF9DD0 /* Drawer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239BB4151E26149B00FF9DD0 /* Drawer.storyboard */; };
+		239BB41A1E2617E000FF9DD0 /* DrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 239BB4191E2617E000FF9DD0 /* DrawerController.m */; };
+		239BB41E1E26186100FF9DD0 /* DrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 239BB41D1E26186100FF9DD0 /* DrawerViewController.m */; };
 		E4422F5BBF08E7C1F696CAA6 /* Pods_ofoBick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0108C444530550A4845993E5 /* Pods_ofoBick.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +87,7 @@
 
 /* Begin PBXFileReference section */
 		0108C444530550A4845993E5 /* Pods_ofoBick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ofoBick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23356BEB1E24A5FA00AD33ED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		234305AF1E24801F004BCCBF /* NetRequestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetRequestClass.h; sourceTree = "<group>"; };
 		234305B01E24801F004BCCBF /* NetRequestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetRequestClass.m; sourceTree = "<group>"; };
 		234305B11E24801F004BCCBF /* ViewModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModelClass.h; sourceTree = "<group>"; };
@@ -176,7 +181,7 @@
 		234306551E24862C004BCCBF /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
 		234306571E24A3C1004BCCBF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		234306581E24A3C1004BCCBF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		2343065A1E24A3E6004BCCBF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Main/Report/Main.storyboard; sourceTree = "<group>"; };
+		2343065A1E24A3E6004BCCBF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Report/Main.storyboard; sourceTree = "<group>"; };
 		238478CC1E1F9B3B00C1E90F /* ofoBick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofoBick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		238478D01E1F9B3B00C1E90F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		238478D21E1F9B3B00C1E90F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -193,6 +198,11 @@
 		238478F41E1F9B3B00C1E90F /* ofoBickUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ofoBickUITests.m; sourceTree = "<group>"; };
 		238478F61E1F9B3B00C1E90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		238479021E1F9F1800C1E90F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		239BB4151E26149B00FF9DD0 /* Drawer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Drawer.storyboard; sourceTree = "<group>"; };
+		239BB4181E2617E000FF9DD0 /* DrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawerController.h; path = DrawerController/DrawerController.h; sourceTree = "<group>"; };
+		239BB4191E2617E000FF9DD0 /* DrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawerController.m; path = DrawerController/DrawerController.m; sourceTree = "<group>"; };
+		239BB41C1E26186100FF9DD0 /* DrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerViewController.h; sourceTree = "<group>"; };
+		239BB41D1E26186100FF9DD0 /* DrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerViewController.m; sourceTree = "<group>"; };
 		28DA88396A3AE0F151E04D3F /* Pods-ofoBick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ofoBick.release.xcconfig"; path = "Pods/Target Support Files/Pods-ofoBick/Pods-ofoBick.release.xcconfig"; sourceTree = "<group>"; };
 		B7453AC8E00FDC9537CC26BA /* Pods-ofoBick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ofoBick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ofoBick/Pods-ofoBick.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -202,6 +212,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23356BEC1E24A5FA00AD33ED /* MapKit.framework in Frameworks */,
 				E4422F5BBF08E7C1F696CAA6 /* Pods_ofoBick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +240,6 @@
 				234305A71E247E71004BCCBF /* Login */,
 				234305A61E247E71004BCCBF /* Drawer */,
 				234305A81E247E71004BCCBF /* Main */,
-				2343065A1E24A3E6004BCCBF /* Main.storyboard */,
 				234306521E2485BB004BCCBF /* Public */,
 				234305AC1E247E71004BCCBF /* Network */,
 				234305AE1E247E71004BCCBF /* Tools */,
@@ -241,6 +251,9 @@
 		234305A61E247E71004BCCBF /* Drawer */ = {
 			isa = PBXGroup;
 			children = (
+				239BB41B1E26184600FF9DD0 /* DrawerViewController */,
+				239BB4171E2617BC00FF9DD0 /* DrawerController */,
+				239BB4151E26149B00FF9DD0 /* Drawer.storyboard */,
 			);
 			path = Drawer;
 			sourceTree = "<group>";
@@ -255,6 +268,7 @@
 		234305A81E247E71004BCCBF /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				2343065A1E24A3E6004BCCBF /* Main.storyboard */,
 				234305A91E247E71004BCCBF /* Gift */,
 				234305AA1E247E71004BCCBF /* Main */,
 				234305AB1E247E71004BCCBF /* Report */,
@@ -557,6 +571,24 @@
 			path = ofoBickUITests;
 			sourceTree = "<group>";
 		};
+		239BB4171E2617BC00FF9DD0 /* DrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				239BB4181E2617E000FF9DD0 /* DrawerController.h */,
+				239BB4191E2617E000FF9DD0 /* DrawerController.m */,
+			);
+			name = DrawerController;
+			sourceTree = "<group>";
+		};
+		239BB41B1E26184600FF9DD0 /* DrawerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				239BB41C1E26186100FF9DD0 /* DrawerViewController.h */,
+				239BB41D1E26186100FF9DD0 /* DrawerViewController.m */,
+			);
+			path = DrawerViewController;
+			sourceTree = "<group>";
+		};
 		CD3C801AAA9B8637157F9BD3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -569,6 +601,7 @@
 		EACD018830021A85E2BBC85D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23356BEB1E24A5FA00AD33ED /* MapKit.framework */,
 				0108C444530550A4845993E5 /* Pods_ofoBick.framework */,
 			);
 			name = Frameworks;
@@ -644,6 +677,7 @@
 				TargetAttributes = {
 					238478CB1E1F9B3A00C1E90F = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = ENQNC23VW9;
 						ProvisioningStyle = Automatic;
 					};
 					238478E41E1F9B3B00C1E90F = {
@@ -688,6 +722,7 @@
 				234305D91E24808E004BCCBF /* MBProgressHUD.bundle in Resources */,
 				2343065B1E24A3E6004BCCBF /* Main.storyboard in Resources */,
 				238478DC1E1F9B3B00C1E90F /* Assets.xcassets in Resources */,
+				239BB4161E26149B00FF9DD0 /* Drawer.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -778,6 +813,7 @@
 				234305E01E24808E004BCCBF /* UIView+Line.m in Sources */,
 				234306501E248153004BCCBF /* UIView+Inspectable.m in Sources */,
 				2343064A1E248153004BCCBF /* GTMBase64.m in Sources */,
+				239BB41E1E26186100FF9DD0 /* DrawerViewController.m in Sources */,
 				238478D41E1F9B3B00C1E90F /* AppDelegate.m in Sources */,
 				234305DA1E24808E004BCCBF /* MBProgressHUD.m in Sources */,
 				234306191E2480B8004BCCBF /* CALayer+Additions.m in Sources */,
@@ -803,6 +839,7 @@
 				234306231E2480B8004BCCBF /* YYClassInfo.m in Sources */,
 				2343061E1E2480B8004BCCBF /* SearchProParmeter.m in Sources */,
 				234306481E248153004BCCBF /* ConnctTool.m in Sources */,
+				239BB41A1E2617E000FF9DD0 /* DrawerController.m in Sources */,
 				238478D11E1F9B3B00C1E90F /* main.m in Sources */,
 				2343061C1E2480B8004BCCBF /* OrderedDictionary.m in Sources */,
 				2343064F1E248153004BCCBF /* UILabel+LabelSize.m in Sources */,
@@ -949,6 +986,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = ENQNC23VW9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/ofoBick/PrefixHeader.pch";
 				INFOPLIST_FILE = ofoBick/Info.plist;
@@ -960,6 +998,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.BaiyingQiu.ofoBick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -969,6 +1008,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = ENQNC23VW9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/ofoBick/PrefixHeader.pch";
 				INFOPLIST_FILE = ofoBick/Info.plist;
@@ -980,6 +1020,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.BaiyingQiu.ofoBick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

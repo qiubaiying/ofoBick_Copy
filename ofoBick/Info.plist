@@ -20,10 +20,18 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>app在后台使用定位服务</string>
+	<key>NSLocationUsageDescription</key>
+	<string>ofo需要获取定位权限</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>app在程序使用时定位服务</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>ofo需要获取相机和照片权限</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
+	<string>Drawer</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
