@@ -15,6 +15,9 @@ pod 'Masonry', '~> 1.0.1'
 pod 'BaiduMapKit', '~> 3.1.0'
 pod 'UICKeyChainStore'
 pod 'MMDrawerController', '~> 0.6.0'
+pod 'pop', '~> 1.0'
+
 
 end
 
+## pod install --verbose --no-repo-update

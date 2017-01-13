@@ -36,6 +36,7 @@
 #import "NavigationView.h"
 #import "NSString+Format.h"
 #import "MMDrawerController.h"
+#import "RuntimeTool.h"
 
 #define IS_IPHONE4    (([[UIScreen mainScreen] bounds].size.height - 480) ? NO:YES)
 #define IS_IPHONE5    (([[UIScreen mainScreen] bounds].size.height - 568) ? NO:YES)

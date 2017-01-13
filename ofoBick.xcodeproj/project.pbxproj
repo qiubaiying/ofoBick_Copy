@@ -14,9 +14,6 @@
 		234305D51E24808E004BCCBF /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 234305B91E24808E004BCCBF /* BaseTableViewController.m */; };
 		234305D61E24808E004BCCBF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 234305BB1E24808E004BCCBF /* BaseViewController.m */; };
 		234305D71E24808E004BCCBF /* CALayer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 234305BD1E24808E004BCCBF /* CALayer+Addition.m */; };
-		234305D81E24808E004BCCBF /* MBProgressHUD+MyMBP.m in Sources */ = {isa = PBXBuildFile; fileRef = 234305C01E24808E004BCCBF /* MBProgressHUD+MyMBP.m */; };
-		234305D91E24808E004BCCBF /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 234305C11E24808E004BCCBF /* MBProgressHUD.bundle */; };
-		234305DA1E24808E004BCCBF /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 234305C31E24808E004BCCBF /* MBProgressHUD.m */; };
 		234305DB1E24808E004BCCBF /* NavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 234305C61E24808E004BCCBF /* NavigationView.m */; };
 		234305DC1E24808E004BCCBF /* NavMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 234305C81E24808E004BCCBF /* NavMainView.m */; };
 		234305DD1E24808E004BCCBF /* NavMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 234305C91E24808E004BCCBF /* NavMainView.xib */; };
@@ -44,8 +41,6 @@
 		234306471E248153004BCCBF /* CLLocation+TRRecentLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2343062C1E248153004BCCBF /* CLLocation+TRRecentLocation.m */; };
 		234306481E248153004BCCBF /* ConnctTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2343062E1E248153004BCCBF /* ConnctTool.m */; };
 		234306491E248153004BCCBF /* FowtechError.m in Sources */ = {isa = PBXBuildFile; fileRef = 234306301E248153004BCCBF /* FowtechError.m */; };
-		2343064A1E248153004BCCBF /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 234306331E248153004BCCBF /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2343064B1E248153004BCCBF /* Toolbase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 234306361E248153004BCCBF /* Toolbase64.m */; };
 		2343064C1E248153004BCCBF /* NSString+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 234306381E248153004BCCBF /* NSString+Format.m */; };
 		2343064D1E248153004BCCBF /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2343063B1E248153004BCCBF /* Tool.m */; };
 		2343064E1E248153004BCCBF /* TRLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2343063D1E248153004BCCBF /* TRLocationController.m */; };
@@ -55,13 +50,23 @@
 		234306561E24862C004BCCBF /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 234306551E24862C004BCCBF /* Config.m */; };
 		234306591E24A3C1004BCCBF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 234306581E24A3C1004BCCBF /* MainViewController.m */; };
 		2343065B1E24A3E6004BCCBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2343065A1E24A3E6004BCCBF /* Main.storyboard */; };
+		2379C3601E287040004CB351 /* HardwareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2379C35F1E287040004CB351 /* HardwareTool.m */; };
+		2379C3631E287613004CB351 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2379C3621E287613004CB351 /* MainNavigationController.m */; };
+		2379C3661E28B7D7004CB351 /* BYDrawButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2379C3651E28B7D7004CB351 /* BYDrawButton.m */; };
+		2379C3691E28D81B004CB351 /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2379C3681E28D81B004CB351 /* PasswordViewController.m */; };
 		238478D11E1F9B3B00C1E90F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 238478D01E1F9B3B00C1E90F /* main.m */; };
 		238478D41E1F9B3B00C1E90F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 238478D31E1F9B3B00C1E90F /* AppDelegate.m */; };
-		238478D71E1F9B3B00C1E90F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 238478D61E1F9B3B00C1E90F /* ViewController.m */; };
 		238478DC1E1F9B3B00C1E90F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 238478DB1E1F9B3B00C1E90F /* Assets.xcassets */; };
 		238478DF1E1F9B3B00C1E90F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238478DD1E1F9B3B00C1E90F /* LaunchScreen.storyboard */; };
 		238478EA1E1F9B3B00C1E90F /* ofoBickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 238478E91E1F9B3B00C1E90F /* ofoBickTests.m */; };
 		238478F51E1F9B3B00C1E90F /* ofoBickUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 238478F41E1F9B3B00C1E90F /* ofoBickUITests.m */; };
+		2390FEE71E275962001526F8 /* UnLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2390FEE61E275962001526F8 /* UnLockViewController.m */; };
+		2390FEEE1E275A39001526F8 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 2390FEEA1E275A39001526F8 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2390FEEF1E275A39001526F8 /* Toolbase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 2390FEED1E275A39001526F8 /* Toolbase64.m */; };
+		2390FEF61E275AE2001526F8 /* MBProgressHUD+MyMBP.m in Sources */ = {isa = PBXBuildFile; fileRef = 2390FEF21E275AE2001526F8 /* MBProgressHUD+MyMBP.m */; };
+		2390FEF71E275AE2001526F8 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2390FEF31E275AE2001526F8 /* MBProgressHUD.bundle */; };
+		2390FEF81E275AE2001526F8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2390FEF51E275AE2001526F8 /* MBProgressHUD.m */; };
+		2390FEFD1E2766C6001526F8 /* RuntimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2390FEFC1E2766C6001526F8 /* RuntimeTool.m */; };
 		239BB4161E26149B00FF9DD0 /* Drawer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239BB4151E26149B00FF9DD0 /* Drawer.storyboard */; };
 		239BB41A1E2617E000FF9DD0 /* DrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 239BB4191E2617E000FF9DD0 /* DrawerController.m */; };
 		239BB41E1E26186100FF9DD0 /* DrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 239BB41D1E26186100FF9DD0 /* DrawerViewController.m */; };
@@ -100,11 +105,6 @@
 		234305BB1E24808E004BCCBF /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		234305BC1E24808E004BCCBF /* CALayer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Addition.h"; sourceTree = "<group>"; };
 		234305BD1E24808E004BCCBF /* CALayer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Addition.m"; sourceTree = "<group>"; };
-		234305BF1E24808E004BCCBF /* MBProgressHUD+MyMBP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MyMBP.h"; sourceTree = "<group>"; };
-		234305C01E24808E004BCCBF /* MBProgressHUD+MyMBP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MyMBP.m"; sourceTree = "<group>"; };
-		234305C11E24808E004BCCBF /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
-		234305C21E24808E004BCCBF /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		234305C31E24808E004BCCBF /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		234305C51E24808E004BCCBF /* NavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationView.h; sourceTree = "<group>"; };
 		234305C61E24808E004BCCBF /* NavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationView.m; sourceTree = "<group>"; };
 		234305C71E24808E004BCCBF /* NavMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavMainView.h; sourceTree = "<group>"; };
@@ -159,11 +159,6 @@
 		2343062E1E248153004BCCBF /* ConnctTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnctTool.m; sourceTree = "<group>"; };
 		2343062F1E248153004BCCBF /* FowtechError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FowtechError.h; sourceTree = "<group>"; };
 		234306301E248153004BCCBF /* FowtechError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FowtechError.m; sourceTree = "<group>"; };
-		234306321E248153004BCCBF /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
-		234306331E248153004BCCBF /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
-		234306341E248153004BCCBF /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		234306351E248153004BCCBF /* Toolbase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toolbase64.h; sourceTree = "<group>"; };
-		234306361E248153004BCCBF /* Toolbase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toolbase64.m; sourceTree = "<group>"; };
 		234306371E248153004BCCBF /* NSString+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Format.h"; sourceTree = "<group>"; };
 		234306381E248153004BCCBF /* NSString+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Format.m"; sourceTree = "<group>"; };
 		234306391E248153004BCCBF /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
@@ -182,15 +177,21 @@
 		234306571E24A3C1004BCCBF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		234306581E24A3C1004BCCBF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		2343065A1E24A3E6004BCCBF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Report/Main.storyboard; sourceTree = "<group>"; };
+		2379C35E1E287040004CB351 /* HardwareTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardwareTool.h; sourceTree = "<group>"; };
+		2379C35F1E287040004CB351 /* HardwareTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HardwareTool.m; sourceTree = "<group>"; };
+		2379C3611E287613004CB351 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		2379C3621E287613004CB351 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		2379C3641E28B7D7004CB351 /* BYDrawButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYDrawButton.h; sourceTree = "<group>"; };
+		2379C3651E28B7D7004CB351 /* BYDrawButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYDrawButton.m; sourceTree = "<group>"; };
+		2379C3671E28D81B004CB351 /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		2379C3681E28D81B004CB351 /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
 		238478CC1E1F9B3B00C1E90F /* ofoBick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofoBick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		238478D01E1F9B3B00C1E90F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		238478D21E1F9B3B00C1E90F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		238478D31E1F9B3B00C1E90F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		238478D51E1F9B3B00C1E90F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		238478D61E1F9B3B00C1E90F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		238478DB1E1F9B3B00C1E90F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		238478D21E1F9B3B00C1E90F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		238478D31E1F9B3B00C1E90F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		238478DB1E1F9B3B00C1E90F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		238478DE1E1F9B3B00C1E90F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		238478E01E1F9B3B00C1E90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238478E01E1F9B3B00C1E90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		238478E51E1F9B3B00C1E90F /* ofoBickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ofoBickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		238478E91E1F9B3B00C1E90F /* ofoBickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ofoBickTests.m; sourceTree = "<group>"; };
 		238478EB1E1F9B3B00C1E90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -198,6 +199,20 @@
 		238478F41E1F9B3B00C1E90F /* ofoBickUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ofoBickUITests.m; sourceTree = "<group>"; };
 		238478F61E1F9B3B00C1E90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		238479021E1F9F1800C1E90F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2390FEE51E275962001526F8 /* UnLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnLockViewController.h; sourceTree = "<group>"; };
+		2390FEE61E275962001526F8 /* UnLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnLockViewController.m; sourceTree = "<group>"; };
+		2390FEE91E275A39001526F8 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		2390FEEA1E275A39001526F8 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		2390FEEB1E275A39001526F8 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		2390FEEC1E275A39001526F8 /* Toolbase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toolbase64.h; sourceTree = "<group>"; };
+		2390FEED1E275A39001526F8 /* Toolbase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toolbase64.m; sourceTree = "<group>"; };
+		2390FEF11E275AE2001526F8 /* MBProgressHUD+MyMBP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MyMBP.h"; sourceTree = "<group>"; };
+		2390FEF21E275AE2001526F8 /* MBProgressHUD+MyMBP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MyMBP.m"; sourceTree = "<group>"; };
+		2390FEF31E275AE2001526F8 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		2390FEF41E275AE2001526F8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		2390FEF51E275AE2001526F8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		2390FEFB1E2766C6001526F8 /* RuntimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeTool.h; sourceTree = "<group>"; };
+		2390FEFC1E2766C6001526F8 /* RuntimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeTool.m; sourceTree = "<group>"; };
 		239BB4151E26149B00FF9DD0 /* Drawer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Drawer.storyboard; sourceTree = "<group>"; };
 		239BB4181E2617E000FF9DD0 /* DrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawerController.h; path = DrawerController/DrawerController.h; sourceTree = "<group>"; };
 		239BB4191E2617E000FF9DD0 /* DrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawerController.m; path = DrawerController/DrawerController.m; sourceTree = "<group>"; };
@@ -242,8 +257,8 @@
 				234305A81E247E71004BCCBF /* Main */,
 				234306521E2485BB004BCCBF /* Public */,
 				234305AC1E247E71004BCCBF /* Network */,
-				234305AE1E247E71004BCCBF /* Tools */,
 				234305AD1E247E71004BCCBF /* Resources */,
+				234305AE1E247E71004BCCBF /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -269,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				2343065A1E24A3E6004BCCBF /* Main.storyboard */,
+				2390FEE41E275949001526F8 /* unlock */,
 				234305A91E247E71004BCCBF /* Gift */,
 				234305AA1E247E71004BCCBF /* Main */,
 				234305AB1E247E71004BCCBF /* Report */,
@@ -286,6 +302,8 @@
 		234305AA1E247E71004BCCBF /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				2379C3611E287613004CB351 /* MainNavigationController.h */,
+				2379C3621E287613004CB351 /* MainNavigationController.m */,
 				234306571E24A3C1004BCCBF /* MainViewController.h */,
 				234306581E24A3C1004BCCBF /* MainViewController.m */,
 			);
@@ -320,6 +338,7 @@
 		234305AE1E247E71004BCCBF /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				2390FEF91E2764F7001526F8 /* Runtime */,
 				234306241E248153004BCCBF /* Tool */,
 				234305B51E24808E004BCCBF /* ViewTool */,
 				234305E31E2480B8004BCCBF /* Vendor */,
@@ -338,7 +357,6 @@
 				234305BB1E24808E004BCCBF /* BaseViewController.m */,
 				234305BC1E24808E004BCCBF /* CALayer+Addition.h */,
 				234305BD1E24808E004BCCBF /* CALayer+Addition.m */,
-				234305BE1E24808E004BCCBF /* MyBMPHUD */,
 				234305C41E24808E004BCCBF /* NavigationView */,
 				234305CA1E24808E004BCCBF /* UIImage+Rotate.h */,
 				234305CB1E24808E004BCCBF /* UIImage+Rotate.m */,
@@ -350,20 +368,10 @@
 				234305D11E24808E004BCCBF /* UIViewController+DismissKeyboard.m */,
 				234305D21E24808E004BCCBF /* UIViewController+navigatinSetting.h */,
 				234305D31E24808E004BCCBF /* UIViewController+navigatinSetting.m */,
+				2379C3641E28B7D7004CB351 /* BYDrawButton.h */,
+				2379C3651E28B7D7004CB351 /* BYDrawButton.m */,
 			);
 			path = ViewTool;
-			sourceTree = "<group>";
-		};
-		234305BE1E24808E004BCCBF /* MyBMPHUD */ = {
-			isa = PBXGroup;
-			children = (
-				234305BF1E24808E004BCCBF /* MBProgressHUD+MyMBP.h */,
-				234305C01E24808E004BCCBF /* MBProgressHUD+MyMBP.m */,
-				234305C11E24808E004BCCBF /* MBProgressHUD.bundle */,
-				234305C21E24808E004BCCBF /* MBProgressHUD.h */,
-				234305C31E24808E004BCCBF /* MBProgressHUD.m */,
-			);
-			path = MyBMPHUD;
 			sourceTree = "<group>";
 		};
 		234305C41E24808E004BCCBF /* NavigationView */ = {
@@ -381,6 +389,8 @@
 		234305E31E2480B8004BCCBF /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				2390FEF01E275AE2001526F8 /* MyBMPHUD */,
+				2390FEE81E275A39001526F8 /* GTMBase64 */,
 				234305F11E2480B8004BCCBF /* DCAnimtionKit */,
 				234305F71E2480B8004BCCBF /* Uitills */,
 				234306081E2480B8004BCCBF /* WPAutoSpringTextView */,
@@ -459,7 +469,6 @@
 				2343062E1E248153004BCCBF /* ConnctTool.m */,
 				2343062F1E248153004BCCBF /* FowtechError.h */,
 				234306301E248153004BCCBF /* FowtechError.m */,
-				234306311E248153004BCCBF /* GTMBase64 */,
 				234306371E248153004BCCBF /* NSString+Format.h */,
 				234306381E248153004BCCBF /* NSString+Format.m */,
 				234306391E248153004BCCBF /* Singleton.h */,
@@ -473,20 +482,10 @@
 				234306411E248153004BCCBF /* UIView+Inspectable.m */,
 				234306421E248153004BCCBF /* ViewUtils.h */,
 				234306431E248153004BCCBF /* ViewUtils.m */,
+				2379C35E1E287040004CB351 /* HardwareTool.h */,
+				2379C35F1E287040004CB351 /* HardwareTool.m */,
 			);
 			path = Tool;
-			sourceTree = "<group>";
-		};
-		234306311E248153004BCCBF /* GTMBase64 */ = {
-			isa = PBXGroup;
-			children = (
-				234306321E248153004BCCBF /* GTMBase64.h */,
-				234306331E248153004BCCBF /* GTMBase64.m */,
-				234306341E248153004BCCBF /* GTMDefines.h */,
-				234306351E248153004BCCBF /* Toolbase64.h */,
-				234306361E248153004BCCBF /* Toolbase64.m */,
-			);
-			path = GTMBase64;
 			sourceTree = "<group>";
 		};
 		234306521E2485BB004BCCBF /* Public */ = {
@@ -532,13 +531,7 @@
 			isa = PBXGroup;
 			children = (
 				234305A21E2479B4004BCCBF /* Classes */,
-				238478D21E1F9B3B00C1E90F /* AppDelegate.h */,
-				238478D31E1F9B3B00C1E90F /* AppDelegate.m */,
-				238478D51E1F9B3B00C1E90F /* ViewController.h */,
-				238478D61E1F9B3B00C1E90F /* ViewController.m */,
-				238478DB1E1F9B3B00C1E90F /* Assets.xcassets */,
-				238478DD1E1F9B3B00C1E90F /* LaunchScreen.storyboard */,
-				238478E01E1F9B3B00C1E90F /* Info.plist */,
+				2390FEFA1E276505001526F8 /* other */,
 				238478CF1E1F9B3B00C1E90F /* Supporting Files */,
 			);
 			path = ofoBick;
@@ -569,6 +562,63 @@
 				238478F61E1F9B3B00C1E90F /* Info.plist */,
 			);
 			path = ofoBickUITests;
+			sourceTree = "<group>";
+		};
+		2390FEE41E275949001526F8 /* unlock */ = {
+			isa = PBXGroup;
+			children = (
+				2390FEE51E275962001526F8 /* UnLockViewController.h */,
+				2390FEE61E275962001526F8 /* UnLockViewController.m */,
+				2379C3671E28D81B004CB351 /* PasswordViewController.h */,
+				2379C3681E28D81B004CB351 /* PasswordViewController.m */,
+			);
+			path = unlock;
+			sourceTree = "<group>";
+		};
+		2390FEE81E275A39001526F8 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				2390FEE91E275A39001526F8 /* GTMBase64.h */,
+				2390FEEA1E275A39001526F8 /* GTMBase64.m */,
+				2390FEEB1E275A39001526F8 /* GTMDefines.h */,
+				2390FEEC1E275A39001526F8 /* Toolbase64.h */,
+				2390FEED1E275A39001526F8 /* Toolbase64.m */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		2390FEF01E275AE2001526F8 /* MyBMPHUD */ = {
+			isa = PBXGroup;
+			children = (
+				2390FEF11E275AE2001526F8 /* MBProgressHUD+MyMBP.h */,
+				2390FEF21E275AE2001526F8 /* MBProgressHUD+MyMBP.m */,
+				2390FEF31E275AE2001526F8 /* MBProgressHUD.bundle */,
+				2390FEF41E275AE2001526F8 /* MBProgressHUD.h */,
+				2390FEF51E275AE2001526F8 /* MBProgressHUD.m */,
+			);
+			path = MyBMPHUD;
+			sourceTree = "<group>";
+		};
+		2390FEF91E2764F7001526F8 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				2390FEFB1E2766C6001526F8 /* RuntimeTool.h */,
+				2390FEFC1E2766C6001526F8 /* RuntimeTool.m */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		2390FEFA1E276505001526F8 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				238478D21E1F9B3B00C1E90F /* AppDelegate.h */,
+				238478D31E1F9B3B00C1E90F /* AppDelegate.m */,
+				238478DB1E1F9B3B00C1E90F /* Assets.xcassets */,
+				238478DD1E1F9B3B00C1E90F /* LaunchScreen.storyboard */,
+				238478E01E1F9B3B00C1E90F /* Info.plist */,
+			);
+			name = other;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		239BB4171E2617BC00FF9DD0 /* DrawerController */ = {
@@ -719,10 +769,10 @@
 			files = (
 				238478DF1E1F9B3B00C1E90F /* LaunchScreen.storyboard in Resources */,
 				234305DD1E24808E004BCCBF /* NavMainView.xib in Resources */,
-				234305D91E24808E004BCCBF /* MBProgressHUD.bundle in Resources */,
 				2343065B1E24A3E6004BCCBF /* Main.storyboard in Resources */,
 				238478DC1E1F9B3B00C1E90F /* Assets.xcassets in Resources */,
 				239BB4161E26149B00FF9DD0 /* Drawer.storyboard in Resources */,
+				2390FEF71E275AE2001526F8 /* MBProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -796,10 +846,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				234306221E2480B8004BCCBF /* NSObject+YYModel.m in Sources */,
-				238478D71E1F9B3B00C1E90F /* ViewController.m in Sources */,
+				2390FEEF1E275A39001526F8 /* Toolbase64.m in Sources */,
 				234306561E24862C004BCCBF /* Config.m in Sources */,
 				2343064C1E248153004BCCBF /* NSString+Format.m in Sources */,
-				2343064B1E248153004BCCBF /* Toolbase64.m in Sources */,
 				234306461E248153004BCCBF /* CheckTimer.m in Sources */,
 				234306451E248153004BCCBF /* BYTimer.m in Sources */,
 				234306511E248153004BCCBF /* ViewUtils.m in Sources */,
@@ -808,14 +857,15 @@
 				234306201E2480B8004BCCBF /* UIResponder+FirstResponder.m in Sources */,
 				2343064D1E248153004BCCBF /* Tool.m in Sources */,
 				234306591E24A3C1004BCCBF /* MainViewController.m in Sources */,
+				2390FEF61E275AE2001526F8 /* MBProgressHUD+MyMBP.m in Sources */,
 				2343061D1E2480B8004BCCBF /* QHCommonUtil.m in Sources */,
 				234305DC1E24808E004BCCBF /* NavMainView.m in Sources */,
 				234305E01E24808E004BCCBF /* UIView+Line.m in Sources */,
+				2390FEE71E275962001526F8 /* UnLockViewController.m in Sources */,
 				234306501E248153004BCCBF /* UIView+Inspectable.m in Sources */,
-				2343064A1E248153004BCCBF /* GTMBase64.m in Sources */,
+				2379C3601E287040004CB351 /* HardwareTool.m in Sources */,
 				239BB41E1E26186100FF9DD0 /* DrawerViewController.m in Sources */,
 				238478D41E1F9B3B00C1E90F /* AppDelegate.m in Sources */,
-				234305DA1E24808E004BCCBF /* MBProgressHUD.m in Sources */,
 				234306191E2480B8004BCCBF /* CALayer+Additions.m in Sources */,
 				2343061B1E2480B8004BCCBF /* InputFormatVerification.m in Sources */,
 				234305D51E24808E004BCCBF /* BaseTableViewController.m in Sources */,
@@ -824,17 +874,21 @@
 				234305D41E24808E004BCCBF /* BaseCollectionView.m in Sources */,
 				234305DF1E24808E004BCCBF /* UINavigationController+FullScreenPopGestureRecognizer.m in Sources */,
 				234305B31E24801F004BCCBF /* NetRequestClass.m in Sources */,
-				234305D81E24808E004BCCBF /* MBProgressHUD+MyMBP.m in Sources */,
+				2390FEEE1E275A39001526F8 /* GTMBase64.m in Sources */,
 				234306211E2480B8004BCCBF /* WPAutoSpringTextViewController.m in Sources */,
 				2343064E1E248153004BCCBF /* TRLocationController.m in Sources */,
 				2343061A1E2480B8004BCCBF /* CommonUtil.m in Sources */,
+				2390FEF81E275AE2001526F8 /* MBProgressHUD.m in Sources */,
 				234306181E2480B8004BCCBF /* bigButton.m in Sources */,
+				2390FEFD1E2766C6001526F8 /* RuntimeTool.m in Sources */,
 				234306491E248153004BCCBF /* FowtechError.m in Sources */,
 				234305D71E24808E004BCCBF /* CALayer+Addition.m in Sources */,
 				234306161E2480B8004BCCBF /* UIView+DCAnimationKit.m in Sources */,
 				234305E21E24808E004BCCBF /* UIViewController+navigatinSetting.m in Sources */,
 				234306441E248153004BCCBF /* BYPhoneNumTF.m in Sources */,
+				2379C3661E28B7D7004CB351 /* BYDrawButton.m in Sources */,
 				234305DE1E24808E004BCCBF /* UIImage+Rotate.m in Sources */,
+				2379C3631E287613004CB351 /* MainNavigationController.m in Sources */,
 				2343061F1E2480B8004BCCBF /* UIView+Frame.m in Sources */,
 				234306231E2480B8004BCCBF /* YYClassInfo.m in Sources */,
 				2343061E1E2480B8004BCCBF /* SearchProParmeter.m in Sources */,
@@ -844,6 +898,7 @@
 				2343061C1E2480B8004BCCBF /* OrderedDictionary.m in Sources */,
 				2343064F1E248153004BCCBF /* UILabel+LabelSize.m in Sources */,
 				234306471E248153004BCCBF /* CLLocation+TRRecentLocation.m in Sources */,
+				2379C3691E28D81B004CB351 /* PasswordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -885,6 +940,7 @@
 				238478DE1E1F9B3B00C1E90F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -986,11 +1042,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: BaiYing Qiu (FH22P6B5QL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = ENQNC23VW9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/ofoBick/PrefixHeader.pch";
 				INFOPLIST_FILE = ofoBick/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1008,11 +1066,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: BaiYing Qiu (FH22P6B5QL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = ENQNC23VW9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/ofoBick/PrefixHeader.pch";
 				INFOPLIST_FILE = ofoBick/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

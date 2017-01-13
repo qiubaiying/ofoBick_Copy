@@ -4,11 +4,12 @@
 //
 //  Created by Jack on 17/1/10.
 //  Copyright © 2017年 SUP M. All rights reserved.
-//  http://stackoverflow.com/questions/39762732/ios-10-heading-arrow-for-mkuserlocation-dot/40808645#40808645
+//  磁感应方向：http://stackoverflow.com/questions/39762732/ios-10-heading-arrow-for-mkuserlocation-dot/40808645#40808645
 
 #import "MainViewController.h"
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
+
 
 @interface MainViewController ()<MKMapViewDelegate,CLLocationManagerDelegate>
 
@@ -161,7 +162,7 @@
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations
 {
     
-    NSLog(@"定位到了 %@", locations);
+    //NSLog(@"定位到了 %@", locations);
     [self.locationManager stopUpdatingLocation];
     
 }
@@ -175,7 +176,7 @@
     
     self.headingImageView.transform = CGAffineTransformMakeRotation(rotation);
     
-    NSLog(@"%lf", newHeading.trueHeading);
+    //NSLog(@"%lf", newHeading.trueHeading);
     
 }
 /*
